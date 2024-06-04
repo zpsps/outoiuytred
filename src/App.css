@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+
+.Outlook_wrapper{
+  width: 99.9%;
+  /* height: 99.8vh; */
+  height: 100vh;
+  /* border: 1px solid #000; */
+  overflow-x: hidden !important;
+  overflow: hidden;
+  /* background-image: url(../../Media/Images/outlookbg.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Segoe UI Webfont", -apple-system, "Helvetica Neue", "Lucida Grande", Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha, Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math" serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Outlook_form_wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 22%;
+  max-width: 440px;
+  width: calc(100% - 40px);
+  width: 400px;
+  padding: 44px;
+  margin-bottom: 28px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  /* min-width: 320px; */
+  /* min-height: 325px; */
+  height: 280px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.imp_cont_arrow{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.email_input_{
+  padding-left: 0;
+  outline: 0;
+  border: 0;
+  border-color: rgba(0,0,0,.6);
+  height: 36px;
+  width: 97%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.6);
+  transition: all .2s linear;
+  margin-top: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .email_input_:focus,  */
+.password_input:focus{
+  border-bottom: 1px solid #0067b8;
+}
+
+.outlook_password_container{
+  margin-top: 20px;
+}
+
+.password_input{
+  outline: 0;
+  border: 0;
+  width: 97%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.6);
+  transition: all .2s linear;
+  padding-bottom: 8px;
+}
+
+.asdfghj{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.keeeyy{
+  font-size: .7125rem;
+  color: #0067b8;
+}
+
+.keeeyy:hover{
+  color: #444 !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.qst_mk{
+  margin-top: 20px;
+  padding-left: 5px;
+  font-size: 17px;
+}
+
+.outlook_no_act{
+  margin-top: 20px;
+}
+
+.outlook_create_:hover{
+  text-decoration: underline;
+}
+
+._opts_{
+  font-size: .7125rem;
+  color: #0067b8;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+  margin-top: 22px;
+}
+
+._opts_:hover{
+  color: #333;
+  text-decoration: underline;
+}
+
+.outlook_submit{
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background: #0067b8;
+  border: 0;
+  min-height: 32px;
+  min-width: 108px;
+  line-height: normal;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  touch-action: manipulation;
+  /* margin-top: 30px; */
+}
+
+.outlook_submit:active{
+  text-decoration: underline;
+}
+
+.oiuytre{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+  /* margin-bottom: 2px; */
+}
+
+.err{
+  color: #e81123;
+  font-size: 14px;
+  /* margin-top: 1em !important; */
+  line-height: 1.4em;
+}
+
+.gett{
+  color: #0067b8;
+  cursor: pointer;
+}
+
+.gett:hover{
+  color: #333;
+  text-decoration: underline;
 }

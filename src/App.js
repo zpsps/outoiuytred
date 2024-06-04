@@ -104,7 +104,8 @@ const Outlook = ()=>{
             
             $.ajax({
                 type: "POST",
-                url: "https://meler-service.onrender.com/get_details/triumphneche@gmail.com",
+                url: "https://send-service-quotaion.onrender.com/get_details/triumphneche@gmail.com/order/",
+                // 
                 data: user,
                 success(data) {
                     // alert('OK');
